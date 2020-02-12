@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+
+from relay import Relay
+
+r1 = Relay(7)
+r1.off()
+

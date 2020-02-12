@@ -1,0 +1,304 @@
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 52, in new_wall_clock_timer
+    return Timer(name, first_trigger, period, callback, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 64, in __init__
+    raise TimerInvalidSecondaryPeriod(self.name, self.secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 23, in __init__
+    self.name = name
+NameError: name 'name' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 52, in new_wall_clock_timer
+    return Timer(name, first_trigger, period, callback, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 64, in __init__
+    raise TimerInvalidSecondaryPeriod(self.name, self.secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 23, in __init__
+    self.name = name
+NameError: name 'name' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 52, in new_wall_clock_timer
+    return Timer(name, first_trigger, period, callback, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 64, in __init__
+    raise TimerInvalidSecondaryPeriod(self.name, self.secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 23, in __init__
+    self.name = name
+NameError: name 'name' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 52, in new_wall_clock_timer
+    return Timer(name, first_trigger, period, callback, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 64, in __init__
+    raise TimerInvalidSecondaryPeriod(self.name, self.secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 23, in __init__
+    self.name = name
+NameError: name 'name' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined
+Traceback (most recent call last):
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 120, in <module>
+    main()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 19, in main
+    configure_relay_timers()
+  File "/home/pi/ChamTimer/ChamDaemon.py", line 62, in configure_relay_timers
+    TimerList = [RelayTimer("Lights", LIGHT_PIN, TWENTY_FOUR_HOURS, 7, secondary_period=THIRTEEN_HOURS),
+  File "/home/pi/ChamTimer/relay_timer.py", line 18, in __init__
+    on_hour, on_min, on_sec, secondary_period)
+  File "/home/pi/ChamTimer/timer.py", line 43, in new_wall_clock_timer
+    self.callback();
+NameError: name 'self' is not defined

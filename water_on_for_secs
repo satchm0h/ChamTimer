@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+from relay import Relay
+import time
+import sys
+
+if len(sys.argv) is 2 and sys.argv[1].isdigit():
+    relay = Relay(13)
+    relay.on()
+    time.sleep(int(sys.argv[1]))
+    relay.off()
+else:
+    print("usage: %s [seconds to turn on water]" % sys.argv[0])
+
